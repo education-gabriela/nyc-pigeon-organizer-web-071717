@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
       information.each do |attr, items|
         if items.include?(name)
           # Add it to the named pigeon
-          info = info << attr.to_s
+          info << attr.to_s
         end
       end
       pigeons[name][main_attr] = info
